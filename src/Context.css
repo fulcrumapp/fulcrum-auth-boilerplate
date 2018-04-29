@@ -1,0 +1,8 @@
+.context {
+  cursor: pointer !important;
+  padding: 10px 0 !important;
+}
+
+.context:hover {
+  background-color: #f7f7f7;
+}
