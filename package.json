@@ -15,14 +15,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "node_modules/.bin/eslint ."
+    "lint": "node_modules/.bin/eslint .",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "fulcrum"
   },
   "devDependencies": {
     "eslint-config-fulcrum": "^1.5.4",
-    "eslint-plugin-babel": "^5.1.0"
+    "eslint-plugin-babel": "^5.1.0",
+    "gh-pages": "^1.1.0"
   },
-  "homepage" : "https://jasonsanford.github.io/fulcrum-auth-boilerplate"
+  "homepage": "https://jasonsanford.github.io/fulcrum-auth-boilerplate"
 }

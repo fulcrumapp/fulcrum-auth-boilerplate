@@ -38,7 +38,7 @@ class App extends Component {
         <Header
           dividing
           as="h1">
-          You are now logged in
+          Success!
         </Header>
         <div className="App">
           <p>
