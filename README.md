@@ -17,3 +17,5 @@ yarn start
 ```
 
 A new browser tab should open and you're good to go.
+
+See it in action at https://jasonsanford.github.io/fulcrum-auth-boilerplate/.
