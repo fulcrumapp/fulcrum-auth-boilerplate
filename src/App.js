@@ -25,7 +25,19 @@ class App extends Component {
   }
 
   render() {
-    const { user, organization, authorization, loggedIn } = this.state;
+    const { user, organization, authorization, loggedIn, sessionKnown } = this.state;
+
+    if (!sessionKnown) {
+      return (
+        <Container text>
+          <Header
+            dividing
+            as="h1">
+            Loading ...
+          </Header>
+        </Container>
+      );
+    }
 
     if (!loggedIn) {
       return (
